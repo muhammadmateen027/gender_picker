@@ -1,3 +1,7 @@
+## [1.0.2] - Release March 14, 2020.
+
+* Updated vertical view alignment
+
 ## [1.0.1] - Release March 14, 2020.
 
 * Changes in classes for effecient view
