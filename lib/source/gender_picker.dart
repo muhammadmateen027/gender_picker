@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gender_picker/source/enums.dart';
 
+// ignore: must_be_immutable
 class GenderPickerWithImage extends StatefulWidget {
   // optional: selectedGender can be null: if null, by default nothing will be selected
   Gender selectedGender;

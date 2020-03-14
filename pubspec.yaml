@@ -1,7 +1,7 @@
 name: gender_picker
 description: A very nice and reactive library for gender picking whether in Horizontal or vertical way
-version: 0.0.2
-author: Mateen <muhammadmateen027@post.umt.edu.pk>
+version: 1.0.0
+author:
 homepage: https://github.com/muhammadmateen027/gender_picker
 
 environment:

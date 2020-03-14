@@ -1,8 +1,16 @@
-## [0.0.1] - Release March 13, 2020.
+## [1.0.0] - Release March 14, 2020.
 
-* Released full changelog with readme.
+* Updated with latest bugfree version
+
+## [0.0.3] - Release March 14, 2020.
+
+* Updated with immutation
 
 
 ## [0.0.2] - Release March 14, 2020.
 
 * Updated with example to use properly
+
+## [0.0.1] - Release March 13, 2020.
+
+* Released full changelog with readme.
