@@ -1,3 +1,7 @@
+## [1.0.1] - Release March 14, 2020.
+
+* Changes in classes for effecient view
+
 ## [1.0.0] - Release March 14, 2020.
 
 * Updated with latest bugfree version

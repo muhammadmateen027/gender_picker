@@ -12,7 +12,7 @@ The source code is 100% Dart, and everything resides in the /lib folder.
 Add this to your package's pubspec.yaml file:
 
 dependencies:
-``` gender_selection: ^1.0.0 ```
+``` gender_selection: ^1.0.1 ```
 
 
 ## Sample Usage
