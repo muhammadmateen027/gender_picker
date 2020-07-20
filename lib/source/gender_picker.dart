@@ -47,7 +47,7 @@ class GenderPickerWithImage extends StatefulWidget {
   final TextStyle selectedGenderTextStyle;
   final TextStyle unSelectedGenderTextStyle;
 
-  // to show extra gender like shemale or Others
+  // to show other genders
   final bool showOtherGender;
 
   GenderPickerWithImage({
@@ -106,7 +106,7 @@ class GenderPickerWithImage extends StatefulWidget {
     this.femaleImage =
         const AssetImage("assets/images/female.png", package: 'gender_picker'),
     this.otherGenderImage =
-        const AssetImage("assets/images/shemale.png", package: 'gender_picker'),
+        const AssetImage("assets/images/other.png", package: 'gender_picker'),
 
     // by default text to show
     this.maleText = "Male",

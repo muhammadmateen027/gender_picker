@@ -1,4 +1,4 @@
-# gender_picker 1.0.3
+# gender_picker 1.0.4
 
 An awesome gender picker widget comes with latest feature to support in your project design.
 

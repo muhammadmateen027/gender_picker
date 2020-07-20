@@ -1,3 +1,7 @@
+## [1.0.4] - Release July 20, 2020.
+
+* Update gender options
+
 ## [1.0.3] - Release July 20, 2020.
 
 * Change animation
