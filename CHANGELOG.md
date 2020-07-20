@@ -1,3 +1,7 @@
+## [1.0.3] - Release July 20, 2020.
+
+* Change animation
+
 ## [1.0.2] - Release March 14, 2020.
 
 * Updated vertical view alignment
