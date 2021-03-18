@@ -4,7 +4,7 @@ import 'package:gender_picker/source/enums.dart';
 // ignore: must_be_immutable
 class GenderPickerWithImage extends StatefulWidget {
   // optional: selectedGender can be null: if null, by default nothing will be selected
-  Gender selectedGender;
+  Gender? selectedGender;
 
   // to align title under picture, set true
   final bool verticalAlignedText;
@@ -18,7 +18,7 @@ class GenderPickerWithImage extends StatefulWidget {
   final ImageProvider otherGenderImage;
 
   // on selection of gender changed
-  final ValueChanged<Gender> onChanged;
+  final ValueChanged<Gender?>? onChanged;
 
   // Title of gender
   final String maleText;
@@ -51,7 +51,7 @@ class GenderPickerWithImage extends StatefulWidget {
   final bool showOtherGender;
 
   GenderPickerWithImage({
-    Key key,
+    Key? key,
     // by default selected color of selected gender text
     this.selectedGenderTextStyle = const TextStyle(
       fontSize: 19,
@@ -89,7 +89,7 @@ class GenderPickerWithImage extends StatefulWidget {
     this.selectedGender = Gender.Male,
 
     // OnChanged is mandatory to implement, so ca change state of widget
-    @required this.onChanged,
+    required this.onChanged,
 
     // by default gradient color
     this.linearGradient = const LinearGradient(
@@ -144,7 +144,7 @@ class _GenderPickerWithImageState extends State<GenderPickerWithImage> {
                   setState(() {
                     widget.selectedGender = Gender.Male;
                     if (widget.onChanged != null) {
-                      widget.onChanged(widget.selectedGender);
+                      widget.onChanged!(widget.selectedGender);
                     } else {
                       return;
                     }
@@ -200,7 +200,7 @@ class _GenderPickerWithImageState extends State<GenderPickerWithImage> {
                   setState(() {
                     widget.selectedGender = Gender.Female;
                     if (widget.onChanged != null) {
-                      widget.onChanged(widget.selectedGender);
+                      widget.onChanged!(widget.selectedGender);
                     } else {
                       return;
                     }
@@ -256,7 +256,7 @@ class _GenderPickerWithImageState extends State<GenderPickerWithImage> {
                         setState(() {
                           widget.selectedGender = Gender.Others;
                           if (widget.onChanged != null) {
-                            widget.onChanged(widget.selectedGender);
+                            widget.onChanged!(widget.selectedGender);
                           } else {
                             return;
                           }
@@ -308,7 +308,7 @@ class _GenderPickerWithImageState extends State<GenderPickerWithImage> {
                         ],
                       ),
                     )
-                  : Container(),
+                  : const SizedBox(),
             ],
           ),
         ),
@@ -334,7 +334,7 @@ class _GenderPickerWithImageState extends State<GenderPickerWithImage> {
                   setState(() {
                     widget.selectedGender = Gender.Male;
                     if (widget.onChanged != null) {
-                      widget.onChanged(widget.selectedGender);
+                      widget.onChanged!(widget.selectedGender);
                     } else {
                       return;
                     }
@@ -391,7 +391,7 @@ class _GenderPickerWithImageState extends State<GenderPickerWithImage> {
                   setState(() {
                     widget.selectedGender = Gender.Female;
                     if (widget.onChanged != null) {
-                      widget.onChanged(widget.selectedGender);
+                      widget.onChanged!(widget.selectedGender);
                     } else {
                       return;
                     }
@@ -448,7 +448,7 @@ class _GenderPickerWithImageState extends State<GenderPickerWithImage> {
                         setState(() {
                           widget.selectedGender = Gender.Others;
                           if (widget.onChanged != null) {
-                            widget.onChanged(widget.selectedGender);
+                            widget.onChanged!(widget.selectedGender);
                           } else {
                             return;
                           }

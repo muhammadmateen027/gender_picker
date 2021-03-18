@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+  MyHomePage({Key? key, this.title = "Gender Picker"}) : super(key: key);
 
   final String title;
 
@@ -105,7 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
             color: Color(0xFF8b32a8), fontWeight: FontWeight.bold),
         unSelectedGenderTextStyle: TextStyle(
             color: Colors.black, fontWeight: FontWeight.normal),
-        onChanged: (Gender gender) {
+        onChanged: (Gender? gender) {
           print(gender);
         },
         //Alignment between icons
