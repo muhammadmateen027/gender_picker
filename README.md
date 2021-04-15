@@ -1,4 +1,4 @@
-# gender_picker 1.0.4
+# gender_picker 1.1.0
 
 An awesome gender picker widget comes with latest feature to support in your project design.
 
@@ -12,7 +12,7 @@ The source code is 100% Dart, and everything resides in the /lib folder.
 Add this to your package's pubspec.yaml file:
 
 dependencies:
-``` gender_picker: ^1.0.2 ```
+``` gender_picker: ^1.1.0 ```
 
 
 ## Sample Usage

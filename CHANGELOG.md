@@ -1,3 +1,7 @@
+## [1.1.0] - Release April 15, 2021.
+
+* Upgrade to null safety
+
 ## [1.0.4] - Release July 20, 2020.
 
 * Update gender options
